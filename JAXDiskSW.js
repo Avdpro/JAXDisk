@@ -1,5 +1,3 @@
-console.log("CokeCodes disk SW: Start!");
-
 class Store {
 	constructor(dbName = 'keyval-store', storeName = 'keyval') {
 		this.storeName = storeName;
