@@ -83,8 +83,7 @@ self.addEventListener('install',function(evt){
 	);
 });
 
-let routes={
-};
+let routes={};
 let routeCalls={};
 let nextCallIdx=1;
 
@@ -750,7 +749,7 @@ self.addEventListener('message', function(event) {
 			break;
 		}
 		case "RouteOff":
-			
+			//TODO: Code this:
 			break;
 		case "RouteRes": {
 			let callId,callStub;
