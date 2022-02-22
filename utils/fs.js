@@ -1,7 +1,7 @@
-import {Buffer} from "/@buffer";
-import {JAXDisk} from "/jaxweb/lib/JAXDisk.js";
+import {Buffer} from "./buffer.js";
+import {JAXDisk} from "../lib/JAXDisk.js";
 import {constants} from "./fsconst.js";
-import pathLib from "/@path";
+import pathLib from "./path.js";
 
 var fs={};
 var fsPromises={};
